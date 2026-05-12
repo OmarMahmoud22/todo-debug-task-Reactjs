@@ -3,7 +3,7 @@ import styles from "./Sidebar.module.css";
 
 const Sidebar = () => {
   return (
-    <aside className={styles.side - bar}>
+    <aside className={styles.side_bar}>
       <div className="p-4 fw-bold text-white fs-4 border-bottom border-secondary mb-3">
         <i className="fa-solid fa-check-double me-2"></i>Todo Master
       </div>

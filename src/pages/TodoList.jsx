@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 import TodoItem from "../components/TodoItem";
 
 const TodoList = () => {
@@ -18,12 +18,14 @@ const TodoList = () => {
       <div className="row">
         <div className="col-md-7">
           <div className="list-group shadow-sm border-0">
-            {tasks.map((t) => (
-              <TodoItem task={t} />
+            {myTasks.map((t, index) => (
+              <TodoItem key={index} task={t} />
             ))}
           </div>
         </div>
-        <div className="col-md-5"></div>
+        <div className="col-md-5">
+          <Outlet />
+        </div>
       </div>
     </div>
   );

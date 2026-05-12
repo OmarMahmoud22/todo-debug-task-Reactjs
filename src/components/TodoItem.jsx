@@ -22,4 +22,3 @@ const TodoItem = ({ task }) => {
   );
 };
 export default TodoItem;
-```</BrowserRouter>
