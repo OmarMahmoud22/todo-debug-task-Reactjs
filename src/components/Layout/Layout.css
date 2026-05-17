@@ -1,0 +1,21 @@
+.layout-wrapper {
+  display: flex;
+  min-height: calc(100vh - 160px);
+}
+
+.layout-content {
+  flex: 1;
+  padding: 1.5rem;
+  background-color: var(--main-bg, #f7f9fc);
+  min-height: 100vh;
+}
+
+@media (max-width: 992px) {
+  .layout-wrapper {
+    flex-direction: column;
+  }
+
+  .layout-content {
+    min-height: auto;
+  }
+}

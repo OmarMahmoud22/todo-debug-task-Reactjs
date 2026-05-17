@@ -1,0 +1,27 @@
+.Side{
+    width: 250px;
+    height: 100vh;
+    background-color: var(--main-color);
+    color: var(--whit-color);
+    
+    
+}
+.title{
+    text-align: center;
+    
+    text-decoration: none;
+    
+}
+.cont{
+    transition: background 1s;
+    width: 100%;
+}
+.cont:hover{
+    background-color: rgb(76, 76, 242);
+    color: aliceblue;
+}
+
+.linkitem{
+    text-decoration: none;
+    color: white;
+}
