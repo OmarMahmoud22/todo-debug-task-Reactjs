@@ -1,0 +1,10 @@
+.Side{
+    width: 250px;
+    height: 100vh;
+    background-color: var(--main-color);
+    color: var(--whit-color);
+}
+.title{
+    text-align: center;
+    color: var(--gray);
+}
