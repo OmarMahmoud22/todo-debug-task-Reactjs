@@ -1,3 +1,4 @@
+
 import FormData from "../components/Formdata/FormData";
 
 export default function UserManagement() {
@@ -19,6 +20,7 @@ export default function UserManagement() {
   return (
     <>
       <FormData title="Users" headers={userHeaders} data={userData} />
+      
     </>
   );
 }
