@@ -1,4 +1,4 @@
-const { Timestamp } = require("mongodb");
+// const { Timestamp } = require("mongodb");
 const mongoose = require("mongoose");
 const bcrypt = require('bcrypt')
 
@@ -37,6 +37,6 @@ AdminSchema.methods.comparePassword = async function (enteredPassword) {
 };
 
 
-const User = mongoose.model("User", AdminSchema);
+const Admin = mongoose.model("Admin", AdminSchema);
 
-module.exports = User;
+module.exports = Admin;
